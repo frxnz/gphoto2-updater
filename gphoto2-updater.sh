@@ -75,7 +75,7 @@ echo "Downloading libusb 1.0.17"
 echo "-------------------------"
 echo
 
-if wget -q http://ftp.de.debian.org/debian/pool/main/libu/libusbx/libusbx_1.0.17.orig.tar.bz2
+if wget -q http://snapshot.debian.org/archive/debian/20130909T094354Z/pool/main/libu/libusbx/libusbx_1.0.17.orig.tar.bz2
 	then
 		tar xjvf libusbx_1.0.17.orig.tar.bz2
 		cd libusbx-1.0.17/
